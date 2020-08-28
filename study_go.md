@@ -1,5 +1,78 @@
 # Go基础
 
+
+
+- [Go基础](#go基础)
+- [第一个go程序（hello go!）](#第一个go程序hello-go)
+- [Go常用命令](#go常用命令)
+- [Go数据类型](#go数据类型)
+- [变量](#变量)
+- [常量](#常量)
+- [For 循环结构](#for-循环结构)
+- [If/Else 条件语句](#ifelse-条件语句)
+- [Switch 条件语句](#switch-条件语句)
+- [Arrays 数组](#arrays-数组)
+- [Slices 切片](#slices-切片)
+- [Maps 键值对](#maps-键值对)
+- [Range 配合for一同使用](#range-配合for一同使用)
+- [函数](#函数)
+- [多返回值，这是一个非常好用的特性](#多返回值这是一个非常好用的特性)
+- [变参函数](#变参函数)
+- [匿名函数](#匿名函数)
+- [递归函数](#递归函数)
+- [指针](#指针)
+- [结构体](#结构体)
+- [方法，实际就是结构体的函数](#方法实际就是结构体的函数)
+- [接口](#接口)
+- [Errors 错误](#errors-错误)
+- [Goroutines 协程](#goroutines-协程)
+- [Channels 通道，go鼓励用这个进行同步](#channels-通道go鼓励用这个进行同步)
+- [缓冲通道](#缓冲通道)
+- [Channel Synchronization](#channel-synchronization)
+- [Channel Directions 单向通道](#channel-directions-单向通道)
+- [Select 处理多个协程](#select-处理多个协程)
+- [Timeouts 超时](#timeouts-超时)
+- [非阻塞通道](#非阻塞通道)
+- [Closing Channels 通道关闭](#closing-channels-通道关闭)
+- [遍历通道](#遍历通道)
+- [Timers](#timers)
+- [Tickers](#tickers)
+- [Worker Pools](#worker-pools)
+- [通道速率控制](#通道速率控制)
+- [Atomic Counters](#atomic-counters)
+- [Mutexes](#mutexes)
+- [Stateful Goroutines](#stateful-goroutines)
+- [Sorting 排序](#sorting-排序)
+- [Sorting by Functions](#sorting-by-functions)
+- [Panic](#panic)
+- [Defer](#defer)
+- [Collection Functions](#collection-functions)
+- [String Functions](#string-functions)
+- [String Formatting 格式化](#string-formatting-格式化)
+- [正则表达式](#正则表达式)
+- [JSON](#json)
+- [Time](#time)
+- [Epoch](#epoch)
+- [Time Formatting / Parsing](#time-formatting--parsing)
+- [伪随机数](#伪随机数)
+- [Number Parsing](#number-parsing)
+- [URL Parsing](#url-parsing)
+- [SHA1 Hashes](#sha1-hashes)
+- [Base64 Encoding](#base64-encoding)
+- [Reading Files](#reading-files)
+- [Writing Files](#writing-files)
+- [Line Filters](#line-filters)
+- [Command-Line Arguments](#command-line-arguments)
+- [Command-Line Flags](#command-line-flags)
+- [环境变量](#环境变量)
+- [Spawning Processes](#spawning-processes)
+- [Execing Processes](#execing-processes)
+- [Signals](#signals)
+- [Exit](#exit)
+
+
+
+
 ## 第一个go程序（hello go!）
 
 ```go
@@ -9,6 +82,7 @@ func main(){ //运行main函数必须导入main包
   fmt.Println("hello Go Go Go ！！")
 }
 ```
+
 
 ## Go常用命令
 
